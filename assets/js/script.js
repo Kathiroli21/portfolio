@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
   contactForm.addEventListener("submit", async function (event) {
       event.preventDefault(); // Prevent the default form submission
 
-      const backendUrl = 'https://backend-h5iv.vercel.app/api/contact'; // Your backend URL
+      const backendUrl = 'https://backend-h5iv.vercel.app/api/contact.js'; // Your backend URL
 
       // Collect form data
       const formData = {
